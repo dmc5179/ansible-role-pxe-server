@@ -1,0 +1,12 @@
+---
+# vars file for install_pxe
+
+
+pxeserver_packages:
+  - tftp
+  - tftp-server
+  - syslinux
+  - syslinux-nonlinux
+
+pxeserver_efi_files:
+  - /boot/efi/EFI/BOOT/BOOTX64.EFI
